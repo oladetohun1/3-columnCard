@@ -5,14 +5,19 @@
 }
 body{
     background-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
 }
 .container{
-    border: 1px solid rgb(255, 255, 255);
-    width: 1185px;
+    border: 2px solid rgb(255, 255, 255);
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 250px;
+    max-height: fit-content;
+    justify-content: center;
     border-radius: 10px;
+    max-width: fit-content;
+    border-radius: 15px;
 }
 .box{
     width: 300px;
@@ -33,16 +38,16 @@ body{
 
 }
 p{
-    width: 200px;
+    /* width: 250px; */
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 30px;
-    padding-top: 40px;
     font-size: 15px;
     padding-bottom: 100px;
     
 }
 h1{
-    padding-top:40px ;
+    padding-top:30px ;
+    padding-bottom: 30px;
     color: #e4fafd;
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'sLexend Deca';
