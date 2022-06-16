@@ -1,3 +1,4 @@
+
 *{
     padding:0px;
     margin:0px;
@@ -29,7 +30,7 @@ body{
     background-color:hsl(31, 77%, 52%);
     
 }
-.box .blue{
+.blue{
     background-color:hsl(184, 100%, 22%);
 }
 .green{
@@ -37,6 +38,7 @@ body{
 
 }
 p{
+    /* width: 250px; */
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 30px;
     font-size: 15px;
@@ -69,6 +71,7 @@ h1{
     border-radius: 20px;
     color:hsl(184 100% 22%);
     padding: 12px 28px;
+    margin: 0px;
     font-size:18px;
     border: white;
   }
