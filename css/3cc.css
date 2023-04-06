@@ -10,7 +10,7 @@ body{
 .container{
     border: 2px solid rgb(255, 255, 255);
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0 auto;
     margin-top: 250px;
     max-height: fit-content;
